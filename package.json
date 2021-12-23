@@ -1,0 +1,20 @@
+{
+  "name": "vanillassr",
+  "version": "1.0.0",
+  "description": "Vanilla Js로 만드는 SSR",
+  "main": "app.js",
+  "scripts": {
+    "serve": "node app.js",
+    "serve:watch": "nodemon app.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
